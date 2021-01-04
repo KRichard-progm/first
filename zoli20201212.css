@@ -11,8 +11,10 @@ div {
     transition: width 1s ease-in;
 }
 h1 {
-    position:relative;
-    z-index:3;
+    background-color: deeppink;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
 }
 
 #cbox {
