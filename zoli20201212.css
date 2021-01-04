@@ -1,0 +1,29 @@
+div {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,0,0);
+
+    overflow-x: hidden;
+    transition: width 1s ease-in;
+}
+h1 {
+    position:relative;
+    z-index:3;
+}
+
+#cbox {
+    position:relative;
+    z-index:3;
+
+}
+#cbox:checked ~ div {
+    width:100%;
+}
+#cbox:checked ~ h1 {
+    color:blue;
+    z-index: 3;
+}
